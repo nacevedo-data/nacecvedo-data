@@ -8,6 +8,9 @@
   <a href="https://www.linkedin.com/in/nicolas-acevedo-" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-nicolas--acevedo-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
+  <a href="https://nacevedo-data.github.io" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-nacevedo--data.github.io-00c8ff?style=flat-square&logo=github&logoColor=white" />
+  </a>
   <a href="mailto:acevedonicolas83@gmail.com">
     <img src="https://img.shields.io/badge/Email-acevedonicolas83@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
@@ -38,12 +41,12 @@ Me especializo en proyectos end-to-end: desde la exploración y limpieza de dato
 
 ---
 
-### 📊 Proyecto destacado
+### 📊 Proyectos
 
 #### 🚇 Análisis del Sistema de Subte de Buenos Aires
 > *"El Subte es un sistema en tensión: alta demanda, tarifas crecientes y una accesibilidad que no acompaña el crecimiento."*
 
-Proyecto de análisis end-to-end sobre el sistema de transporte subterráneo de CABA (2014–2021).
+Análisis end-to-end sobre el sistema de transporte subterráneo de CABA (2014–2021).
 
 **Lo que hice:**
 - **Etapa 1 — EDA** en Python/Jupyter: exploración de +83M registros, análisis de pasajeros por línea, estación, franja horaria y evolución tarifaria
@@ -62,6 +65,28 @@ Proyecto de análisis end-to-end sobre el sistema de transporte subterráneo de 
 
 ---
 
+#### 🏠 Análisis del Mercado Airbnb · Buenos Aires
+> *"El mercado premia la escala justa por encima del lujo absoluto."*
+
+Análisis end-to-end del mercado de alquileres temporarios en Buenos Aires, sobre un dataset de 23.729 propiedades.
+
+**Lo que hice:**
+- **Etapa 1 — EDA** en Python/Jupyter: análisis de precios, ocupación y ratings por barrio y tipo de propiedad
+- **Etapa 2 — ETL & Data Warehouse** en MySQL: star schema con `fact_listings` y 4 tablas dimensionales
+- **Etapa 3 — Dashboard** en Power BI: 4 páginas interactivas con Score de Inversión, análisis geográfico y matriz precio-ocupación
+
+**Hallazgos clave:**
+- Los barrios más caros por noche no son los más rentables
+- Almagro, Belgrano y Villa Crespo lideran en ocupación
+- Entire home/apt representa el 77% de la oferta y sostiene la facturación
+- El "sweet spot": unidades completas para 3–5 huéspedes en el corredor Almagro · Villa Crespo · Palermo
+
+**Stack:** `Python` `Pandas` `MySQL` `Power BI` `DAX` `ETL` `Star Schema`
+
+🔗 [Ver repositorio](https://github.com/nacevedo-data/airbnb-buenos-aires-analysis)
+
+---
+
 ### 📈 GitHub Stats
 
 <p align="center">
@@ -76,4 +101,5 @@ Proyecto de análisis end-to-end sobre el sistema de transporte subterráneo de 
 Si tenés una oportunidad en Data Analytics o simplemente querés conectar, escribime:
 
 - 💼 [linkedin.com/in/nicolas-acevedo-](https://www.linkedin.com/in/nicolas-acevedo-)
+- 🌐 [nacevedo-data.github.io](https://nacevedo-data.github.io)
 - 📧 acevedonicolas83@gmail.com
